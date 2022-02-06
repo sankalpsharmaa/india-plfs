@@ -1,0 +1,41 @@
+dictionary using FHH_FV.TXT {
+
+_column(1)   str4   file_id                   "File Identification"
+_column(5)   str3   schedule                  "Schedule"
+_column(8)   str2   quarter                   "Quater"
+_column(10)  str2   visit                     "Visit"
+_column(12)         sector            %1f     "Sector"
+_column(13)  str2   state                     "State"
+_column(15)  str2   district                  "District"
+_column(17)  str3   nss_region                "NSS region"
+_column(20)  str2   stratum                   "Stratum"
+_column(22)  str2   sub_stratum               "Sub-stratum"
+_column(24)  str1   sub_sample                "Sub-sample"
+_column(25)  str4   fod_sub_region            "FOD sub-region"
+_column(29)  str5   fsu                       "FSU"
+_column(34)  str1   hg                        "Sample hg/Sb No."
+_column(35)  str1   sss                       "Second Stage Stratum No."
+_column(36)  str2   hh_no                     "Sample Household Number"
+_column(38)  str2   month_survey              "Month of survey"
+_column(40)         response_code     %1f     "Response Code"
+_column(41)         survey_code       %1f     "Survey Code"
+_column(42)         subs_reason       %1f     "Reson for Substitution of original Household"
+_column(43)         hh_size           %2f     "Household Size"
+_column(45)         hh_type           %1f     "Household type"
+_column(46)         religion          %1f     "Religion"
+_column(47)         social_group      %1f     "Social group"
+_column(48)         hh_cons_exp       %8f     "Household's Usual Expenditure In A Month (Rs.)"
+_column(56)  str2   informant_serial_no       "Informant Serial no."
+_column(58)  str8   survey_date               "Survey Date"
+_column(66)         time_taken        %4f     "Total Time Taken To Canvass Sch. 10.4"
+_column(70)         nss               %3f     "Ns count for sector x stratum x substratum x sub-sample"
+_column(73)         nsc               %3f     "Ns count for sector x stratum x substratum"
+_column(76)         mult              %10f    "Sub-sample wise Multiplier"
+_column(86)  str1   occurence                 "Occurance of State x Sector x Stratum x SubStratum in 4 Quarters"
+}
+
+
+
+
+
+
