@@ -33,9 +33,3 @@ _column(73)         nsc               %3f     "Ns count for sector x stratum x s
 _column(76)         mult              %10f    "Sub-sample wise Multiplier"
 _column(86)  str1   occurence                 "Occurance of State x Sector x Stratum x SubStratum in 4 Quarters"
 }
-
-
-
-
-
-
