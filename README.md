@@ -16,3 +16,7 @@ The raw data is provided in `.txt` files which can be accessed from the followin
 - `dict` contains all the dictionary files for first visits and revisits to parse variables from `.txt` files
 - `src` contains the cleaning scripts
 - `docs` contains documentation about sampling weights and variables
+
+## Usage Instructions
+
+1. `make_plfs.do` contains globals at the top of the script to specify the filepaths to the data and code folders respectively. The code global assumes by default that the plfs repo lies in your root folder `~`.
