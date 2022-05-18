@@ -16,3 +16,8 @@ This repository contains code to process raw data from the Indian Periodic Labou
 ## Usage Instructions
 
 1. `make_plfs.do` contains globals at the top of the script to specify the filepaths to the data and code folders respectively. The code global assumes by default that the plfs repo lies in your root folder `~`.
+
+## Final Notes
+If you find any issues while using the code, please add them under GitHub issues. Specific suggestions for improving the code can be made via pull request.
+
+Cheers!
