@@ -19,7 +19,7 @@ This repository contains code to process raw data from the Indian Periodic Labou
 
 ## Occupations
 
-PLFS uses the 2004 National Classification of Occupations (NCO) to identify workers. This [file]([url](https://labour.gov.in/sites/default/files/AlphabeticalIndex.pdf)) offers a concordance of 2004 NCO codes with 1968 NCO codes to allow linking PLFS to older NSS rounds.
+PLFS uses the 2004 National Classification of Occupations (NCO) to identify workers. This [file](https://labour.gov.in/sites/default/files/AlphabeticalIndex.pdf) offers a concordance of 2004 NCO codes with 1968 NCO codes to allow linking PLFS to older NSS rounds.
 
 ## Final Notes
 If you find any issues while using the code, please add them under GitHub issues. Specific suggestions for improving the code can be made via pull request.
