@@ -2,7 +2,7 @@
 /* Parse data from Periodic Labour Force Survey */
 /************************************************/
 
-* Years covered: 2017 - 2020
+* Years covered: 2017 - 2021
 * NOTE: This script only parses data from the first visit only, urban revisits are not covered
 
 /********************/
@@ -10,7 +10,7 @@
 /********************/
 
 /* add years to a temporary variable */
-local year "2017_18 2018_19 2019_20"
+local year "2017_18 2018_19 2019_20 2020_21"
 
 /* import raw text files into STATA with a manually created dictionary */
 foreach i in `year' {
@@ -27,6 +27,10 @@ foreach i in `year' {
 
     if "`i'" == "2019_20" {
         infile using "$dict/FHH_FV.dct", using("$plfs/`i'/HHV1.TXT") clear
+    }
+
+    if "`i'" == "2020_21" {
+        infile using "$dict/FHH_FV_2020.dct", using("$plfs/`i'/HHV1.TXT") clear
     }
 
 /*************************************************/
@@ -106,6 +110,9 @@ infile using "$dict/FPER_FV.dct", using("$plfs/`i'/per104_fv_final.txt") clear
 }
 if "`i'" == "2019_20" {
 infile using "$dict/FPER_FV.dct", using("$plfs/`i'/PERV1.TXT") clear
+}
+if "`i'" == "2020_21" {
+infile using "$dict/FPER_FV_2020.dct", using("$plfs/`i'/PERV1.TXT") clear
 }
 
 /* generate unique household identifier */
